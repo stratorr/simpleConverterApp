@@ -1,0 +1,21 @@
+.header {
+    padding: 30px 20px;
+    background-color: #0a74ff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__menu {
+        display: flex;
+        li + li {
+            margin-left: 15px;
+        }
+    }
+    &__link {
+        text-decoration: none;
+        color: #fff;
+        &-selected {
+            color: red;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input {
+    padding: 20px 15px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 1px solid #8d8d8d;
+}
+
+select {
+    border-radius: 6px;
+    border: 1px solid #8d8d8d;
+    width: 90px;
+}
+
+.title {
+    color: #fff;
+}
+
+.big-title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.link {
+    color: blue;
+    text-align: center;
+}
+
+.preloader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto auto;
+}
